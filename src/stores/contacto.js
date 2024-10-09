@@ -15,7 +15,7 @@ export const useStoreContactoSalon = defineStore(
         const idContactoSalon = ref('');
         const contactoSalonSeleccionado = ref(null);
 
-        // Obtener todos los contactos de salón
+        // Obtener todos los contactos de salon
         const getAll = async () => {
             try {
                 const response = await axios.get(`/${modelo}/all`);
